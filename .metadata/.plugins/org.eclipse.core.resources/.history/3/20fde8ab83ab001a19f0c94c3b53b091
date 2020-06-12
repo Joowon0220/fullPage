@@ -1,0 +1,13 @@
+$(document).ready(function(){
+  
+  // fullpage customization
+  $('#fullpage').fullpage({
+    sectionSelector: '.section',
+    slideSelector: '.horizontal-scrolling',
+    navigation: true,
+    slidesNavigation: false,
+    css3: true,
+    controlArrows: false    
+  }); 
+  
+});

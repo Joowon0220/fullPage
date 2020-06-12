@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Full Page</title>
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet"> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="main.js"></script>
+</head>
+<body>
+	<div id="fullpage">
+		<div class="section">
+			<h2>section 1</h2>
+			<p>▼・ᴥ・▼</p>
+		</div>
+		<div class="section">
+			<h2>section 2</h2>
+			<p>━╤デ╦︻(▀̿̿Ĺ̯̿̿▀̿ ̿)</p>
+		</div>
+		<div class="section">
+			<h2>section 3</h2>
+			<p>༼♥ل͜♥༽</p>
+		</div>
+
+	</div>
+
+	
+</body>
+</html>

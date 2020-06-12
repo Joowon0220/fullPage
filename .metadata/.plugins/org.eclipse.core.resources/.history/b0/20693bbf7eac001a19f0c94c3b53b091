@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Full Page</title>
+<script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="menu.js"></script>
+<script
+	src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/409445/animateAnything.js"></script>
+<link rel="stylesheet" type="text/css" href="basic.css">
+<style type="text/css">
+#s1 {
+	background-color: #1e3799;
+}
+
+#s2 {
+	background-color: orange;
+}
+
+#s3 {
+	background-color: gray;
+}
+</style>
+
+</head>
+<header>
+	<img alt="logo" src="./img/splogo.jpg" />
+	<nav>
+		<ul id="topmenu">
+			<li class="topmenu_li">회사소개
+				<ul class="submenu">
+					<li><a href="#">ceo 인사말</a></li>
+					<li><a href="#">회사연혁</a></li>
+					<li><a href="#">조직도</a></li>
+					<li><a href="#">사업장안내</a></li>
+					<li><a href="#">찾아오시는 길</a></li>
+				</ul>
+			</li>
+			<li class="topmenu_li">경영소개
+				<ul class="submenu">
+					<li><a href="#">▼(´ᴥ`)▼</a></li>
+					<li><a href="#">▽･ｪ･▽</a></li>
+					<li><a href="#">◔_◔</a></li>
+					<li><a href="#">▽･ｪ･▽</a></li>
+					<li><a href="#">▼(´ᴥ`)▼</a></li>
+
+				</ul>
+			</li>
+			<li class="topmenu_li">상품소개
+				<ul class="submenu">
+					<li><a href="#">▼(´ᴥ`)▼</a></li>
+					<li><a href="#">▽･ｪ･▽</a></li>
+					<li><a href="#">◔_◔</a></li>
+					<li><a href="#">▽･ｪ･▽</a></li>
+					<li><a href="#">▼(´ᴥ`)▼</a></li>
+
+				</ul>
+			</li>
+			<li class="topmenu_li">채용안내
+				<ul class="submenu">
+					<li><a href="#">▼(´ᴥ`)▼</a></li>
+					<li><a href="#">▽･ｪ･▽</a></li>
+					<li><a href="#">◔_◔</a></li>
+					<li><a href="#">▽･ｪ･▽</a></li>
+					<li><a href="#">▼(´ᴥ`)▼</a></li>
+
+				</ul>
+			</li>
+			<li class="topmenu_li">고객센터
+				<ul class="submenu">
+					<li><a href="#">▼(´ᴥ`)▼</a></li>
+					<li><a href="#">▽･ｪ･▽</a></li>
+					<li><a href="#">◔_◔</a></li>
+					<li><a href="#">▽･ｪ･▽</a></li>
+					<li><a href="#">▼(´ᴥ`)▼</a></li>
+
+				</ul>
+			</li>
+		</ul>
+	</nav>
+	<nav class="mobile-nav-wrap" role="navigation">
+		<ul class="mobile-header-nav">
+			<li><a href="#">Nav Item 1</a></li>
+			<li><a href="#">Nav Item 2</a></li>
+			<li><a href="#">Nav Item 3</a></li>
+		</ul>
+	</nav>
+
+	<a class="burger" href="#">
+		<span class="menu-item"></span> 
+		
+	</a>
+
+</header>
+<body>
+
+	<div id="fullpage">
+		<section id="s1">
+			<h2>section 1</h2>
+			<div id="scroll">
+				<a href="#s2"><span></span>
+					<p>SCROLL DOWN</p></a>
+			</div>
+		</section>
+		<section id="s2">
+			<h2>section 2</h2>
+			<div id="scroll">
+				<a href="#s3"><span></span>
+					<p>SCROLL DOWN</p></a>
+			</div>
+		</section>
+		<section id="s3">
+			<h2>section 3</h2>
+			<div id="scroll">
+				<a href="#s1"><span></span>
+					<p>SCROLL DOWN</p></a>
+			</div>
+		</section>
+
+	</div>
+
+
+</body>
+</html>
