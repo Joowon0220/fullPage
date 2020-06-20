@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$('.burger').click(function(){
+		$(this).toggleClass('on');
+		var t_menu = document.getElementById("burger-wrap");
+		if(t_menu.style.display == 'none'){
+			t_menu.style.display = 'block';
+		}else{
+			t_menu.style.display = 'none';
+		}
+	});
+});
+

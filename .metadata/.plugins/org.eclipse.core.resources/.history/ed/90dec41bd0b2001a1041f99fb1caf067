@@ -103,7 +103,8 @@ header {
 section {
 	width: 100%;
 	height: 100%;
-
+	position:relative;
+	top:0;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: contain;
@@ -255,8 +256,6 @@ section a span::before {
 	background: rgba(0, 0, 0, 0.2);
 	z-index: 998;
 	color:white;
-	position:absolute;
-	top:100px;
 }
 
 .burger-li {
